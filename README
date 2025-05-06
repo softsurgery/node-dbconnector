@@ -10,7 +10,6 @@ This Node.js application allows users to connect to any MySQL database by sendin
 - Uses `nodemon` in development mode for hot reloading.
 - Dockerized for easy development and deployment.
 
----
 
 ## 📦 Requirements
 
@@ -18,23 +17,17 @@ This Node.js application allows users to connect to any MySQL database by sendin
 - Docker (optional but recommended)
 - MySQL (local or remote)
 
----
 
 ## 📁 Project Structure
 
-.
+```yml
 ├── app.js
 ├── db/
 │ └── connectionManager.js
 ├── package.json
 ├── Dockerfile
 └── README.md
-
-yaml
-Copier
-Modifier
-
----
+```
 
 ## 🔧 API Usage
 
